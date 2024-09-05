@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hogwarts/presentation/views/characters_view.dart';
+import 'presentation/views/characters_view.dart';
 
 void main() {
   runApp(const Hogwarts());

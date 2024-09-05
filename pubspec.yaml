@@ -29,13 +29,13 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   bloc: ^8.1.4
+  cached_network_image: ^3.4.1
   cupertino_icons: ^1.0.8
   dio: ^5.7.0
-  flutter_bloc: ^8.1.6
-  flutter_offline: ^4.0.0
   flutter:
     sdk: flutter
-  
+  flutter_bloc: ^8.1.6
+  flutter_offline: ^4.0.0
 
 dev_dependencies:
   flutter_lints: ^4.0.0
