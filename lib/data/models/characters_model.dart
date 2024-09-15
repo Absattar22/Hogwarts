@@ -1,6 +1,6 @@
 
 class CharactersModel {
-  int charId;
+  String charId;
   String name;
   List<dynamic> alternateNames; // List<String> but i used dynamic to avoid error in the API
   String house;
