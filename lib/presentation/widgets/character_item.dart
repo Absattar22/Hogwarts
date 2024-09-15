@@ -3,8 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:hogwarts/data/models/characters_model.dart';
 
 class CharacterItem extends StatelessWidget {
-  const CharacterItem({super.key, required this.character});
+   CharacterItem({super.key, required this.character});
   final CharactersModel character;
+
+ 
+    final List<String> names = ['zeyad', 'ali', 'ahmed', 'mohammed', 'khalid'];
+    List<String> filteredNames = [];
+
+
+    void search(String value) {
+      
+      filteredNames = names.where((name) => name.toLowerCase().contains(value.toLowerCase()))
+          .toList();
+      print(filteredNames);
+    }
 
   @override
   Widget build(BuildContext context) {
